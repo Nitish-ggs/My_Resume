@@ -3,26 +3,76 @@
     <head>
         <meta charset = "UTF-8">
         <title> My Resume </title>
+        <style>
+            
+            .name {
+              font-family: "Roboto Mono", monospace;
+              font-optical-sizing: auto;
+              font-weight: 600;
+              font-style: normal;
+              color: #F6F5F5;
+              background-color:#0C359E
+            }
+
+                
+            .playfair-display{
+                font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+            }    
+
+            .rajdhani-regular {
+                font-family: "Rajdhani", sans-serif;
+                font-weight: 800;
+                font-style: normal;
+                background-color: #FFE3CA
+              }
+              
+            li {
+                font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal
+
+            }
+            #textali{
+                text-align: center
+                
+            }
+           
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
     </head>
     
     <body>
-        <h1>
+        <h1 class = "name">
             Nitish Kumar</h1>
         <img src = "./Assets/Image/profile picture.jpg" width = 150 alt = Profile Photo />
 
-        <h2> Summary </h2>
-        <p> Dedicated and passionate computer enthusiast with a comprehensive understanding of hardware and software technologies.</p>
+        <h2 class = "rajdhani-regular"> Summary </h2>
+        <p class = "playfair-display", id = "textali" > Dedicated and passionate computer enthusiast with a comprehensive understanding of hardware and software technologies.</p>
         <hr/>
-        <h2> Education </h2>
+        <h2 class ="rajdhani-regular"> Education </h2>
         <ul>
             <li> High School in Maharishi Vidya Mandir, Chetpet </li>
             
         <hl/>
-        <h2>
+        </ul>
+        <h2 class= "rajdhani-regular">
             Work Experience </h2>
-            <p> No work experiences so far </p>
+            <p class = "playfair-display"> No work experiences so far </p>
         <hr/>
-        <h2> Skills </h2>
+        <h2 class = "rajdhani-regular"> Skills </h2>
         <ul> 
             <li>
                 Team management: ⭐⭐⭐⭐ </li>
@@ -32,13 +82,13 @@
                 Efficiency:⭐⭐⭐ </li>
             </ul>
         <hr/>
-        <h2> 
+        <h2 class= "rajdhani-regular"> 
             Awards And Certifications </h2>
-            <p> Participated in various sporting events, won badminton tournaments in 8th grade and qualified to participate in the south zone 
+            <p class = "playfair-display"> Participated in various sporting events, won badminton tournaments in 8th grade and qualified to participate in the south zone 
                 cluster events from our school. Prizes in National and international level olympiads organised by SOF and 
                 Silverzone organisations in my 11th and 12th grade, and even got selected for the 2nd round of the IOM olympiad. </p>
         <hr/>
-        <h2> Other </h2>
+        <h2 class= "rajdhani-regular"> Other </h2>
         <a href = "./My Hobbies.html"> My hobbies </a> <br/>
         <a href = "./Contact.html"> Contact Details </a>
 
@@ -47,12 +97,6 @@
         <p> © Nitish Kumar. All rights reserved. </p>
         </footer>
         
-
-
-
-
-
-    
 
     </body>
     </html>
